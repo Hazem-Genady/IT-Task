@@ -81,10 +81,15 @@ header ul {
 }
 
 .header-links a:hover {
-    color: rgb(48, 48, 255);
-    border-bottom: rgb(48, 48, 255) 2px solid;
+    color: var(--primary-hover);
+    border-bottom: var(--primary-hover) 2px solid;
     padding-bottom: 3px;
-
+}
+.header-links a.active{
+    color: var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color); 
+    font-weight: bold; 
+    padding-bottom: 5px;
 }
 
 .header-logo {
@@ -150,3 +155,19 @@ header ul {
     margin-bottom: 48px;
 }
 /* End section */
+
+/* Start Footer */
+
+footer {
+    background-color: var(--text-main);
+    color: #ffffff; 
+    text-align: center;
+    padding: 30px 0;
+    margin-top: auto; 
+}
+
+footer p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+/* End Footer */
