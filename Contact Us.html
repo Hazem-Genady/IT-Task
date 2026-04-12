@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <header class="container">
+            <ul class="header-links">
+                <a href="index.html">Home</a>
+                <a href="My Courses.html">My Courses</a>
+                <a href="Add Courses.html">Add Courses</a>
+                <a href="Contact Us.html" class="active">Contact Us</a>
+            </ul>
+            <span class="header-logo">
+                <span>c</span><span>o</span><span>u</span><span>r</span><span>s</span><span>e</span><span>a</span>
+            </span>
+        </header>
+    </nav>
+    <section class="container">
+        <form action="AyKalam.php" method="post">
+            <label for="Cname">Course Name</label>
+            <input type="text" id="Cname" name="course name" placeholder="Course Name..">
+
+            <label for="lname">Instractor Name</label>
+            <input type="text" id="Iname" name="Instractorname" placeholder="Instractor name..">
+
+            <label for="Credit">Credit Hours</label>
+            <select id="Credit" name="Credit">
+                <option value="3 Hours">3 Hours</option>
+                <option value="2 Hours">2 Hours</option>
+                <option value="None">0 Hours</option>
+            </select>
+            <label for="message">Notes:</label>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Coursea. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
