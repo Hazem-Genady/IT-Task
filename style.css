@@ -457,9 +457,21 @@ input[type=submit]:hover {
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .container {
         width: 960px;
+    }
+
+    .home-section a {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .landing-page {
+        padding-top: 44px;
     }
 
 }
