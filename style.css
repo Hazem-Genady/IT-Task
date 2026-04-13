@@ -116,7 +116,7 @@ header ul {
 
 .header-logo span:hover {
     font-size: 48px;
-    color: #fccc42;
+    color: var(--secondary-color);
 }
 
 /* End Of Nav */
